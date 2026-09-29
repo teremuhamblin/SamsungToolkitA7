@@ -36,3 +36,11 @@
 
 ## Recommandations
 - Toujours flasher **vbmeta désactivé** :
+fastboot --disable-verity --disable-verification flash vbmeta vbmeta.img
+  `
+- Garder le vendor stock pour éviter les bootloops.
+- Tester les GSI avec un logcat + dmesg pour identifier les erreurs HAL.
+
+Statut
+✔️ Documentation initiale complète — v1.0
+`
