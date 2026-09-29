@@ -8,6 +8,8 @@ SamsungToolkitA7/
 ├── .gitignore
 ├── docs/
 │   ├── README.md
+│   ├── ROADMAP.md
+│   ├── CHANGELOG.md
 │   ├── structure.md.md
 │   ├── device-specs.md
 │   ├── partitions-map.md
@@ -49,8 +51,4 @@ SamsungToolkitA7/
 │   ├── gsi-recommended-list.md
 │   ├── magisk-modules-notes.md
 │   └── safety-checklist.md
-└── ci/
-    ├── build-kernel.yml
-    ├── test-tools.yml
-    └── diagnostics-report.yml
-```n
+```
