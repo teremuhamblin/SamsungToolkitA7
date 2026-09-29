@@ -1,8 +1,11 @@
 #!/bin/bash
-#
+# SamsungToolkitA7 — DISCLAIMER
+# Vous utilisez ce script à vos propres risques.
+# Aucune garantie. Aucune responsabilité en cas de brick, perte de données,
+# corruption de partitions ou dysfonctionnement radio.
+# Vous choisissez d'exécuter ces opérations. Assumez-les.
 # install.sh — SamsungToolkitA7
 # Script d'installation automatique des outils nécessaires
-#
 
 echo "[*] Mise à jour du système..."
 sudo apt update
