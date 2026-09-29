@@ -1,0 +1,1 @@
+# SamsungToolkitA7
