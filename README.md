@@ -22,23 +22,6 @@ Fournir un pack technique propre, sans binaires propriétaires, permettant :
 ### 2. Structure du projet
 La structure complète est disponible dans :  
 **docs/structure.md**
-- Résumé des principaux modules :
-```text
-SamsungToolkitA7/
-├── utils/                 # buildenv, install, guides
-├── diagnostics/           # scripts de diagnostic
-├── tools/
-│   ├── boot-tools/        # extract/repack boot.img
-│   ├── partition-tools/   # dump/check partitions
-│   ├── odin-linux/        # outils Heimdall / Odin Linux
-│   └── firmware/          # decrypt_shuffle.py + analyse firmware
-├── firmware/              # notes ROM stock / GSI
-├── kernel/                # notes kernel stock / custom
-├── recovery/              # guides TWRP / PBRP
-├── modules/               # initialisation de modules internes
-├── configs/               # GSI list, Magisk notes, safety checklist
-└── ci/                    # pipelines CI/CD
-```
 
 ### 3. Scripts rapides
 - **Diagnostics**
@@ -96,7 +79,7 @@ Le dossier modules/ permet d’initialiser des modules techniques :
 
 ### 7. CI/CD
 Pipelines pour :
-```schema
+```text
 - Tests des outils  
 - Génération de rapports diagnostics  
 - Build kernel (exemple)  
@@ -104,7 +87,6 @@ Pipelines pour :
 ```
 
 ### 8. Avertissements
-
 <p align="center">
 Ce dépôt est technique / expérimental.
 Aucune ROM, aucun fichier propriétaire Samsung n’est inclus.  
